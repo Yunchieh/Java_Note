@@ -23,7 +23,7 @@ public class TestWhileQiantao {
 		}
 		
 		System.out.println("#################");
-		
+		//用while循环分别计算100以内的奇数及偶数的和，并输出。
 		int Sum1 = 0;
 		int Sum2 = 0;
 		for (int a = 0; a <= 100 ; a++) {
@@ -36,19 +36,5 @@ public class TestWhileQiantao {
 		System.out.println("Sum1 = "+Sum1);
 		System.out.println("Sum2 = "+Sum2);
 		
-		System.out.println("#################");
-		int b = 0;
-		int c = 1;
-		while(b <= 100) {
-			while(b % 5 == 0){
-				System.out.print(b + " ");
-				c++;
-			}
-			b++;
-			if(c%5==0) {
-				System.out.println();
-			}
-			
-		}
 	}
 }
